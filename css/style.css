@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue:#Ff7433;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -4709,7 +4709,7 @@ button.close {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: #212529; }
+  color: #Ff7433; }
 
 .carousel {
   position: relative; }
@@ -7652,7 +7652,7 @@ h1, h2, h3, h4, h5,
       color: #167ce9; }
 
 .ftco-services .nav-link-wrap {
-  background: #167ce9; }
+  background: #Ff7433; }
   @media (min-width: 768px) {
     .ftco-services .nav-link-wrap {
       margin-top: -40px; } }
@@ -8152,7 +8152,7 @@ textarea.form-control {
     bottom: 0;
     content: '';
     opacity: .95;
-    background: #39345a; }
+    background: #Ff7433; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
