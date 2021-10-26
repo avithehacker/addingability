@@ -217,7 +217,7 @@ http://www.tooplate.com/view/2098-health
           </div>
      </section>
 
-     <!-- MAKE AN APPOINTMENT -->
+     <!-- Contact Form -->
      <section id="appointment" data-stellar-background-ratio="3">
           <div class="container">
                <div class="row">
@@ -228,25 +228,25 @@ http://www.tooplate.com/view/2098-health
 
                     <div class="col-md-6 col-sm-6">
                          <!-- CONTACT FORM HERE -->
-                         <form id="appointment-form" role="form" method="post" action="#">
+                         <form id="contact-form" role="form" method="post" action="contact.php">
 
                               <!-- SECTION TITLE -->
                               <div class="section-title wow fadeInUp" data-wow-delay="0.4s">
-                                   <h2>Make an appointment</h2>
+                                   <h2>ENQUIRE</h2>
                               </div>
 
                               <div class="wow fadeInUp" data-wow-delay="0.8s">
                                    <div class="col-md-6 col-sm-6">
                                         <label for="name">Name</label>
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" pattern=[A-Z\sa-z]{3,20} required>
                                    </div>
 
                                    <div class="col-md-6 col-sm-6">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your email" required>
                                    </div>
-
-                                   <!--<div class="col-md-6 col-sm-6">
+<!--
+                                   <div class="col-md-6 col-sm-6">
                                         <label for="date">Select Date</label>
                                         <input type="date" name="date" value="" class="form-control">
                                    </div>
@@ -259,14 +259,14 @@ http://www.tooplate.com/view/2098-health
                                              <option>Dental</option>
                                              <option>Medical Research</option>
                                         </select>
-                                   </div>-->
-
+                                   </div>
+-->
                                    <div class="col-md-12 col-sm-12">
                                         <label for="telephone">Phone Number</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
-                                        <label for="Message">Enter your query</label>
-                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Submit Button</button>
+                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone" required>
+                                        <label for="Message">Write your message/question</label>
+                                        <textarea class="form-control" rows="5" id="message" name="message" placeholder="Ask whatever you want to know." required></textarea>
+                                        <button type="submit" class="form-control" id="cf-submit" name="submit">Send</button>
                                    </div>
                               </div>
                         </form>
